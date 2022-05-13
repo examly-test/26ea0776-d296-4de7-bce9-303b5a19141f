@@ -21,7 +21,7 @@ jobs:
         env:
           GITHUB_TOKEN: 26ea0776-d296-4de7-bce9-303b5a19141f
           SONAR_TOKEN: 6c6b2469c3347bcc5a90cd7dbec5c8ce8a816eb6
-          args: >-
+          args:
             -Dsonar.projectKey=examly-test_26ea0776-d296-4de7-bce9-303b5a19141f
             -Dsonar.organization=examly-test
             -Dsonar.sources=aspnet-core-angular/,mvc-angularjs/src
